@@ -37,9 +37,10 @@ const ContactPage: FC = () => {
 	} = useForm<FormData>({
 		mode: 'onChange'
 	});
-
-	const TOKEN = process.env.NEXT_TELEGRAM_TOKEN!;
-	const CHAT_ID = process.env.NEXT_TELEGRAM_CHAT_ID!;
+	const TOKEN = '7215747939:AAHfUizUPgBrxYpRKqodv8eh8gyABxqHuGs';
+	const CHAT_ID = '-1002239512579';
+	// const TOKEN = process.env.NEXT_TELEGRAM_TOKEN!;
+	// const CHAT_ID = process.env.NEXT_TELEGRAM_CHAT_ID!;
 	const API_URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
 	const messageModel = (data: FormData) => {

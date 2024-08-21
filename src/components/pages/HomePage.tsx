@@ -139,7 +139,7 @@ const HomePage: FC = () => {
 										custom={11}
 										variants={animationIcons}
 										className={scss.icon}
-										href="https://www.linkedin.com/in/elcho"
+										href="https://www.linkedin.com/in/salamalik-shaiyldaevich-bb7a572a9/"
 										target="_blank"
 										aria-label="Linkedin"
 									>
@@ -149,7 +149,7 @@ const HomePage: FC = () => {
 										custom={12}
 										variants={animationIcons}
 										className={scss.icon}
-										href="https://github.com/Elkhan2003"
+										href="https://github.com/shaiyldaevich"
 										target="_blank"
 										aria-label="GitHub"
 									>

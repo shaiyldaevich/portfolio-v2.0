@@ -126,9 +126,9 @@ const Header: FC<HeaderProps> = (props) => {
 									}}
 								>
 									<h1 className={scss.logo__bg}>
-										Elcho
+										smk
 										<span>
-											<AnimatedNumbers value={911} />
+											<AnimatedNumbers value={555} />
 										</span>
 									</h1>
 								</ScrollLink>

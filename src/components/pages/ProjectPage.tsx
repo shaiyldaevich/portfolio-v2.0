@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import scss from './Style.module.scss';
 import Image from 'next/image';
 import elchocrud from '@/assets/projects/elchocrud.png';
-import eco_movie from '@/assets/projects/eco-movie.png';
+import eco_movie from '@/assets/projects/afisha.png';
 import wedevx_selenium from '@/assets/projects/wedevx-selenium.png';
 import ortodont_group from '@/assets/projects/ortodont-group.png';
 import amo_crm from '@/assets/projects/amo-crm.png';
@@ -29,86 +29,86 @@ interface projectsTypes {
 
 const ProjectPage: FC = () => {
 	const projects: projectsTypes[] = [
+		// {
+		// 	title: 'Elcho Crud ❤️‍🔥',
+		// 	description: <FormattedMessage id="page.project.text.elchocrud" />,
+		// 	stack: [
+		// 		'NextJS',
+		// 		'TypeScript',
+		// 		'ReduxToolkit',
+		// 		'Express',
+		// 		'Prisma-ORM',
+		// 		'Supabase',
+		// 		'RestAPI'
+		// 	],
+		// 	codeLink: 'https://elchocrud.pro/',
+		// 	demoLink: 'https://elchocrud.pro/',
+		// 	image: elchocrud
+		// },
 		{
-			title: 'Elcho Crud ❤️‍🔥',
-			description: <FormattedMessage id="page.project.text.elchocrud" />,
-			stack: [
-				'NextJS',
-				'TypeScript',
-				'ReduxToolkit',
-				'Express',
-				'Prisma-ORM',
-				'Supabase',
-				'RestAPI'
-			],
-			codeLink: 'https://elchocrud.pro/',
-			demoLink: 'https://elchocrud.pro/',
-			image: elchocrud
-		},
-		{
-			title: 'Eco Movie 🐬',
+			title: 'Afisha 🐬',
 			description: <FormattedMessage id="page.project.text.eco_movie" />,
 			stack: ['NextJS', 'TypeScript', 'ReduxToolkit', 'RestAPI'],
-			codeLink: 'https://github.com/Elkhan2003/eco-movie',
-			demoLink: 'https://ecomovie.life/',
+			codeLink: 'https://github.com/shaiyldaevich/movie',
+			demoLink: 'https://movie-mu-six.vercel.app/popular',
 			image: eco_movie
 		},
-		{
-			title: 'WeDevX Selenium 🐬',
-			description: <FormattedMessage id="page.project.text.wedevx_selenium" />,
-			stack: ['NextJS', 'TypeScript', 'Material UI'],
-			codeLink: 'https://github.com/Elkhan2003/Selenium',
-			demoLink: 'https://demo-project.wedevx.co/',
-			image: wedevx_selenium
-		},
-		{
-			title: 'Ortodont Group 🪙',
-			description: <FormattedMessage id="page.project.text.ortodont_group" />,
-			stack: ['NextJS', 'TypeScript', 'SCSS', 'RestAPI'],
-			codeLink: 'https://github.com/Elkhan2003/Next-Dentist',
-			demoLink: 'https://next-dentist911.vercel.app/',
-			image: ortodont_group
-		},
-		{
-			title: 'AmoCRM 🐬',
-			description: <FormattedMessage id="page.project.text.amo_crm" />,
-			stack: [
-				'Fastify',
-				'TypeScript',
-				'Supabase',
-				'Prisma',
-				'AmoCRM',
-				'RestAPI'
-			],
-			codeLink: 'https://github.com/Elkhan2003/AmoCRM',
-			demoLink: 'https://rose-uninterested-crane.cyclic.cloud/',
-			image: amo_crm
-		},
+		// {
+		// 	title: 'WeDevX Selenium 🐬',
+		// 	description: <FormattedMessage id="page.project.text.wedevx_selenium" />,
+		// 	stack: ['NextJS', 'TypeScript', 'Material UI'],
+		// 	codeLink: 'https://github.com/Elkhan2003/Selenium',
+		// 	demoLink: 'https://demo-project.wedevx.co/',
+		// 	image: wedevx_selenium
+		// },
+		// {
+		// 	title: 'Ortodont Group 🪙',
+		// 	description: <FormattedMessage id="page.project.text.ortodont_group" />,
+		// 	stack: ['NextJS', 'TypeScript', 'SCSS', 'RestAPI'],
+		// 	codeLink: 'https://github.com/Elkhan2003/Next-Dentist',
+		// 	demoLink: 'https://next-dentist911.vercel.app/',
+		// 	image: ortodont_group
+		// },
+		// {
+		// 	title: 'AmoCRM 🐬',
+		// 	description: <FormattedMessage id="page.project.text.amo_crm" />,
+		// 	stack: [
+		// 		'Fastify',
+		// 		'TypeScript',
+		// 		'Supabase',
+		// 		'Prisma',
+		// 		'AmoCRM',
+		// 		'RestAPI'
+		// 	],
+		// 	codeLink: 'https://github.com/Elkhan2003/AmoCRM',
+		// 	demoLink: 'https://rose-uninterested-crane.cyclic.cloud/',
+		// 	image: amo_crm
+		// },
 		{
 			title: 'Telegram SMS bot 🐬',
 			description: <FormattedMessage id="page.project.text.telegram_sms_bot" />,
 			stack: ['Express', 'TypeScript', 'TelegramBot', 'RestAPI'],
-			codeLink: 'https://github.com/Elkhan2003/telegram-sms-bot',
+			codeLink: 'https://github.com/shaiyldaevich/tgbott',
 			demoLink:
 				'https://github.com/Elkhan2003/telegram-sms-bot/blob/main/README.md',
 			image: telegram_sms_bot
 		},
-		{
-			title: 'WeDevX Magazine 🐬',
-			description: <FormattedMessage id="page.project.text.devx_magazine" />,
-			stack: ['React', 'SCSS', 'Firebase', 'RestAPI'],
-			codeLink: 'https://github.com/Elkhan2003/DevX-Magazine-Private',
-			demoLink: 'https://devx911.netlify.app/',
-			image: devx_magazine
-		},
-		{
-			title: 'Alpha version | DevX IKSU 🐬',
-			description: <FormattedMessage id="page.project.text.devx_iksu" />,
-			stack: ['React', 'TypeScript', 'SCSS', 'Firebase'],
-			codeLink: 'https://github.com/DevX-Karakol-911/DevX-Karakol-beta',
-			demoLink: 'https://devx-kg.netlify.app/',
-			image: devx_iksu
-		}
+		// {
+		// 	title: 'WeDevX Magazine 🐬',
+		// 	description: <FormattedMessage id="page.project.text.devx_magazine" />,
+		// 	stack: ['React', 'SCSS', 'Firebase', 'RestAPI'],
+		// 	codeLink: 'https://github.com/Elkhan2003/DevX-Magazine-Private',
+		// 	demoLink: 'https://devx911.netlify.app/',
+		// 	image: devx_magazine
+		// },
+		// {
+		// 	title: 'Alpha version | DevX IKSU 🐬',
+		// 	description: <FormattedMessage id="page.project.text.devx_iksu" />,
+		// 	stack: ['React', 'TypeScript', 'SCSS', 'Firebase'],
+		// 	codeLink: 'https://github.com/DevX-Karakol-911/DevX-Karakol-beta',
+		// 	demoLink: 'https://devx-kg.netlify.app/',
+		// 	image: devx_iksu
+		// }
 		// {
 		// 	title: 'Diploma project 🪙',
 		// 	description: <FormattedMessage id="page.project.text.diploma_project" />,
@@ -117,14 +117,14 @@ const ProjectPage: FC = () => {
 		// 	demoLink: 'https://elcho911-diploma.netlify.app/',
 		// 	image: my_diploma
 		// }
-		// {
-		// 	title: "ToDo List 🪙",
-		// 	description: <FormattedMessage id="page.project.text.todo_list" />,
-		// 	stack: ["React", "SCSS", "NodeJS", "MongoDB"],
-		// 	codeLink: "https://github.com/Elkhan2003/MongoDB-ToDoList",
-		// 	demoLink: "https://todo-mongo911.netlify.app/",
-		// 	image: todo_list
-		// },
+		{
+			title: "ToDo List 🪙",
+			description: <FormattedMessage id="page.project.text.todo_list" />,
+			stack: ["React", "SCSS", "NodeJS", "MongoDB"],
+			codeLink: "https://github.com/Elkhan2003/MongoDB-ToDoList",
+			demoLink: "https://todo-mongo911.netlify.app/",
+			image: todo_list
+		},
 		// {
 		// 	title: '2020 | Mogo 🤫',
 		// 	description: <FormattedMessage id="page.project.text.intern" />,

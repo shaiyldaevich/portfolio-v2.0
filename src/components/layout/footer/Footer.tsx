@@ -8,7 +8,7 @@ const Footer: FC = () => {
 			<div className={`${scss.footer__page} ${scss.text__z__index}`}>
 				<div className="container">
 					<div className={scss.content}>
-						<p>Copyright © 2021-2024. All rights are reserved</p>
+						<p>Copyright © 2023-2024. All rights are reserved</p>
 						<p className={scss.center__text}>
 							Built with<span className={scss.heart}>♡</span>by
 							<span>
@@ -20,7 +20,7 @@ const Footer: FC = () => {
 						<div className={`${scss.my__icons}`}>
 							<a
 								className={scss.icon}
-								href="https://www.linkedin.com/in/elcho/"
+								href="https://www.linkedin.com/in/salamalik-shaiyldaevich-bb7a572a9/"
 								target="_blank"
 								aria-label="Linkedin"
 							>
@@ -28,7 +28,7 @@ const Footer: FC = () => {
 							</a>
 							<a
 								className={scss.icon}
-								href="https://github.com/Elkhan2003"
+								href="https://github.com/shaiyldaevich"
 								target="_blank"
 								aria-label="GitHub"
 							>

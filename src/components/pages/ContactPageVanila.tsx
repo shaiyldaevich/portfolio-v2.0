@@ -24,8 +24,8 @@ const ContactPage: FC = () => {
 		message: ''
 	});
 
-	const TOKEN = '6182732393:AAEaon3732C55YRsWvLNdaEtLRKh4TSGhww';
-	const CHAT_ID = '-1001985016010';
+	const TOKEN = '7215747939:AAHfUizUPgBrxYpRKqodv8eh8gyABxqHuGs';
+	const CHAT_ID = '-1002239512579';
 	const API_URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
 	const messageModel = () => {

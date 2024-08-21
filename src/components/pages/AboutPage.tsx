@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import scss from '@/components/pages/Style.module.scss';
 import Image from 'next/image';
-import about_pic from '@/assets/about-pic.png';
+import about_pic from '@/assets/454025030_1060688585764673_2436888556128735223_n.jpg';
 import spiner_pic from '@/assets/spiner-pic.png';
 import { FormattedMessage } from 'react-intl';
 
