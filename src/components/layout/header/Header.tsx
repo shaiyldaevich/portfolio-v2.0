@@ -191,7 +191,12 @@ const Header: FC<HeaderProps> = (props) => {
 
 									{/* ! resume */}
 									<div className={scss.resume}>
-										<a className={scss.button} href={resume} target="_blank">
+										<a
+											className={scss.button}
+											target="_blank"
+											rel="noopener noreferror"
+											href="/resume.pdf"
+										>
 											Resume
 											<ArrowUpRightIcon />
 										</a>
