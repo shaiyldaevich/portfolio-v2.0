@@ -15,6 +15,7 @@ import devx_little from '@/assets/projects/devx-little.png';
 import ojjo from '@/assets/projects/ojjo.png';
 import css_animation from '@/assets/projects/css-animation.png';
 import todo_list from '@/assets/projects/todo-list.png';
+import shop_jordan from '@/assets/projects/jordan.png'
 import { ArrowUpRightIcon, GithubIcon } from '@/components/svgs';
 import { FormattedMessage } from 'react-intl';
 
@@ -92,6 +93,15 @@ const ProjectPage: FC = () => {
 			demoLink:
 				'https://github.com/Elkhan2003/telegram-sms-bot/blob/main/README.md',
 			image: telegram_sms_bot
+		},
+		{
+			title: 'Jordan Shop 🐬',
+			description: <FormattedMessage id="page.project.text.telegram_sms_bot" />,
+			stack: ['Express', 'TypeScript', 'TelegramBot', 'RestAPI'],
+			codeLink: 'https://github.com/shaiyldaevich/jordanshop',
+			demoLink:
+				'https://jordanshop-wine.vercel.app/',
+			image: shop_jordan
 		},
 		// {
 		// 	title: 'WeDevX Magazine 🐬',
