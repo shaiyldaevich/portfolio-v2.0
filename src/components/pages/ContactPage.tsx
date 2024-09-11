@@ -230,3 +230,14 @@ const ContactPage: FC = () => {
 };
 
 export default ContactPage;
+// "page.home.title_2": "Back-End Developer",
+// 	"page.home.title_3": "Front-End Developer",
+// 	"page.home.title_4": "Front-End Developer",
+// 	"page.home.title_5": "Front-End Developer",
+// 	"page.home.title_6": "Front-End Developer",
+// "page.home.title_2": "Back-End Разработчик",
+// 	"page.home.title_3": "Front-End Разработчик",
+// 	"page.home.title_4": "DevXer",
+// 	"page.home.title_5": "Freelancer",
+// 	"page.home.title_6": "Сисадмин",
+// 	
