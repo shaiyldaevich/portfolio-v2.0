@@ -24,7 +24,7 @@ const HomePage: FC = () => {
 	}, []);
 
 	const tech_icons: techIconsTypes[] = [
-		{ icon: TechIcons.mac_os_icon, name: 'MacOS' },
+		// { icon: TechIcons.mac_os_icon, name: 'MacOS' },
 		{ icon: TechIcons.linux_icon, name: 'Linux' },
 		{ icon: TechIcons.windows_icon, name: 'Windows' },
 		{ icon: TechIcons.html_icon, name: 'HTML' },
@@ -37,14 +37,14 @@ const HomePage: FC = () => {
 		{ icon: TechIcons.next_icon, name: 'Next.js' },
 		{ icon: TechIcons.scss_icon, name: 'SCSS' },
 		{ icon: TechIcons.node_icon, name: 'Node.js' },
-		{ icon: TechIcons.express_icon, name: 'Express' },
-		{ icon: TechIcons.fastify_icon, name: 'Fastify' },
+		// { icon: TechIcons.express_icon, name: 'Express' },
+		// { icon: TechIcons.fastify_icon, name: 'Fastify' },
 		{ icon: TechIcons.nest_icon, name: 'Nest.js' },
 		{ icon: TechIcons.prisma_icon, name: 'Prisma' },
 		{ icon: TechIcons.supabase_icon, name: 'Supabase' },
-		{ icon: TechIcons.my_sql_icon, name: 'MySQL' },
-		{ icon: TechIcons.postgresql_icon, name: 'PostgreSQL' },
-		{ icon: TechIcons.docker_icon, name: 'Docker' },
+		// { icon: TechIcons.my_sql_icon, name: 'MySQL' },
+		// { icon: TechIcons.postgresql_icon, name: 'PostgreSQL' },
+		// { icon: TechIcons.docker_icon, name: 'Docker' },
 		{ icon: TechIcons.git_icon, name: 'Git' }
 	];
 
