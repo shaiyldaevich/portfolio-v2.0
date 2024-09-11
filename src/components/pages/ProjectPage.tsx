@@ -15,7 +15,8 @@ import devx_little from '@/assets/projects/devx-little.png';
 import ojjo from '@/assets/projects/ojjo.png';
 import css_animation from '@/assets/projects/css-animation.png';
 import todo_list from '@/assets/projects/todo-list.png';
-import shop_jordan from '@/assets/projects/jordan.png'
+import shop_jordan from '@/assets/projects/jordan.png';
+import fy555 from '@/assets/projects/Screenshot from 2024-09-10 12-58-22.png';
 import { ArrowUpRightIcon, GithubIcon } from '@/components/svgs';
 import { FormattedMessage } from 'react-intl';
 
@@ -99,8 +100,7 @@ const ProjectPage: FC = () => {
 			description: <FormattedMessage id="page.project.text.telegram_sms_bot" />,
 			stack: ['Express', 'TypeScript', 'TelegramBot', 'RestAPI'],
 			codeLink: 'https://github.com/shaiyldaevich/jordanshop',
-			demoLink:
-				'https://jordanshop-wine.vercel.app/',
+			demoLink: 'https://jordanshop-wine.vercel.app/',
 			image: shop_jordan
 		},
 		// {
@@ -127,14 +127,14 @@ const ProjectPage: FC = () => {
 		// 	demoLink: 'https://elcho911-diploma.netlify.app/',
 		// 	image: my_diploma
 		// }
-		{
-			title: "ToDo List 🪙",
-			description: <FormattedMessage id="page.project.text.todo_list" />,
-			stack: ["React", "SCSS", "NodeJS", "MongoDB"],
-			codeLink: "https://github.com/Elkhan2003/MongoDB-ToDoList",
-			demoLink: "https://todo-mongo911.netlify.app/",
-			image: todo_list
-		},
+		// {
+		// 	title: "ToDo List 🪙",
+		// 	description: <FormattedMessage id="page.project.text.todo_list" />,
+		// 	stack: ["React", "SCSS", "NodeJS", "MongoDB"],
+		// 	codeLink: "https://github.com/Elkhan2003/MongoDB-ToDoList",
+		// 	demoLink: "https://todo-mongo911.netlify.app/",
+		// 	image: todo_list
+		// },
 		// {
 		// 	title: '2020 | Mogo 🤫',
 		// 	description: <FormattedMessage id="page.project.text.intern" />,
@@ -167,6 +167,14 @@ const ProjectPage: FC = () => {
 		// 	demoLink: 'https://elkhan2003.github.io/css-animation/',
 		// 	image: css_animation
 		// }
+		{
+			title: '2024 | SMKFY-555 🤫',
+			description: <FormattedMessage id="page.project.text.intern" />,
+			stack: ['NextJS', 'TypeScript', 'ReduxToolkit', 'RestAPI'],
+			codeLink: 'https://github.com/shaiyldaevich/smkfy-555',
+			demoLink: 'https://smkfy-555.vercel.app/',
+			image: fy555
+		}
 	];
 
 	return (
