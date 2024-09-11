@@ -169,7 +169,7 @@ const ProjectPage: FC = () => {
 		// }
 		{
 			title: '2024 | SMKFY-555 🤫',
-			description: <FormattedMessage id="page.project.text.intern" />,
+			description: <FormattedMessage id="page.project.text.intern_fy555" />,
 			stack: ['NextJS', 'TypeScript', 'ReduxToolkit', 'RestAPI'],
 			codeLink: 'https://github.com/shaiyldaevich/smkfy-555',
 			demoLink: 'https://smkfy-555.vercel.app/',

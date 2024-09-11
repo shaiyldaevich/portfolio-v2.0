@@ -40,7 +40,7 @@
 	"page.project.text.diploma_project": "This React website is developed as part of the diploma project of the K. Tynystanov Issyk-Kul State University and is my first project using the React framework.",
 	"page.project.text.todo_list": "The ToDo List website is a web application for creating a task list. It was created using Node.js and React. The application allows you to add, delete, modify, and mark tasks as completed.",
 	"page.project.text.intern": "The site was created solely for my personal purposes - to practice and improve my layout skills using HTML, CSS and JavaScript. If you're interested, you can follow the link and check it out!",
-	"page.project.text.intern-fy555": "This site is a clone of spotify . In this site you can listen to music online.",
+	"page.project.text.intern_fy555": "This site is a clone of spotify . In this site you can listen to music online.",
 	"!--!--!--CONTACT--!--!--!": "!--!--!--CONTACT--!--!--!",
 	"page.contact.title": "Get in touch",
 	"page.contact.input.name": "Your name",
