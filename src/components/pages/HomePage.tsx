@@ -163,11 +163,11 @@ const HomePage: FC = () => {
 									tiltMaxAngleX={10}
 									tiltMaxAngleY={10}
 								>
-									{/* <motion.div
+									<motion.div
 										custom={1}
 										variants={animationImage}
 										className={`${scss.shape}`}
-									></motion.div> */}
+									></motion.div>
 								</Tilt>
 							</div>
 						</div>

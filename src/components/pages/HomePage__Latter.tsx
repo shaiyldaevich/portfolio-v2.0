@@ -130,11 +130,11 @@ const HomePage: FC = () => {
 								</div>
 							</div>
 							<div className={scss.right}>
-								{/* <motion.div
+								<motion.div
 									custom={1}
 									variants={animationImage}
 									className={`${scss.shape}`}
-								></motion.div> */}
+								></motion.div>
 							</div>
 						</div>
 
