@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import scss from './Style.module.scss';
 import Image from 'next/image';
 import elchocrud from '@/assets/projects/elchocrud.png';
-import eco_movie from '@/assets/projects/afisha.png';
+import eco_movie from '@/assets/projects/eco-movie.png';
 import wedevx_selenium from '@/assets/projects/wedevx-selenium.png';
 import ortodont_group from '@/assets/projects/ortodont-group.png';
 import amo_crm from '@/assets/projects/amo-crm.png';
@@ -48,7 +48,7 @@ const ProjectPage: FC = () => {
 		// 	image: elchocrud
 		// },
 		{
-			title: 'Afisha 🐬',
+			title: 'SMK-MOVIE',
 			description: <FormattedMessage id="page.project.text.eco_movie" />,
 			stack: ['NextJS', 'TypeScript', 'ReduxToolkit', 'RestAPI'],
 			codeLink: 'https://github.com/shaiyldaevich/movie',
