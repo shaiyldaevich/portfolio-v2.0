@@ -51,8 +51,8 @@ const ProjectPage: FC = () => {
 			title: 'SMK-MOVIE',
 			description: <FormattedMessage id="page.project.text.eco_movie" />,
 			stack: ['NextJS', 'TypeScript', 'ReduxToolkit', 'RestAPI'],
-			codeLink: 'https://github.com/shaiyldaevich/movie',
-			demoLink: 'https://movie-mu-six.vercel.app/popular',
+			codeLink: 'https://github.com/shaiyldaevich/SmkMovie.org',
+			demoLink: 'https://smk-movie-org.vercel.app/',
 			image: eco_movie
 		},
 		// {
